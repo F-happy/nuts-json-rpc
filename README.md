@@ -1,4 +1,7 @@
 # nuts-json-rpc
+[![npm](https://img.shields.io/npm/v/nuts-json-rpc.svg?style=flat-square)](https://www.npmjs.com/package/nuts-json-rpc)
+[![npm](https://img.shields.io/npm/l/nuts-json-rpc.svg?style=flat-square)](https://www.npmjs.com/package/nuts-json-rpc)
+
 这是一个遵循 json-rpc2.0 协议的 node 客户端
 
 ## 安装方法：
