@@ -1,0 +1,23 @@
+{
+  "name": "nuts-json-rpc",
+  "version": "0.1.0",
+  "description": "这是一个遵循 json-rpc2.0 协议的 node 客户端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-happy/nuts-json-rpc.git"
+  },
+  "keywords": [
+    "rpc",
+    "json"
+  ],
+  "author": "jonnyf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F-happy/nuts-json-rpc/issues"
+  },
+  "homepage": "https://github.com/F-happy/nuts-json-rpc#readme"
+}
