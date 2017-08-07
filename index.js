@@ -16,6 +16,13 @@ class NutsJsonRPC {
         this.path = urlInfo.path || '/';
         this.port = port;
         this.header = header;
+        this.debugFunction = null;
+    }
+
+    printRequestBody(callback) {
+        if (typeof callback === 'function') {
+            this.debugFunction = callback;
+        }
     }
 
     async call(method, params) {
@@ -53,6 +60,9 @@ class NutsJsonRPC {
                 method: 'POST'
             };
             const request = http.request(options);
+            if (this.debugFunction) {
+                this.debugFunction(requestJSON);
+            }
             request.on('response', (response) => {
                 response.on('data', (chunk) => {
                     buffer += chunk;

@@ -1,6 +1,6 @@
 {
   "name": "nuts-json-rpc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "这是一个遵循 json-rpc2.0 协议的 node 客户端",
   "main": "index.js",
   "scripts": {

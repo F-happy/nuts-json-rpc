@@ -43,3 +43,11 @@ const {createClient, NutsJsonRPC} = require('nuts-json-rpc');
 
 ### notify(method, params)
 > 发起一个rpc通知
+
+### printRequestBody(function)
+> 打印请求体
+
+```javascript
+const client = new NutsJsonRPC(`${this.host}${url}`, 80);
+client.printRequestBody(console.log);
+```
