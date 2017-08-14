@@ -64,6 +64,7 @@ class NutsJsonRPC {
                 this.debugFunction(requestJSON);
             }
             request.on('response', (response) => {
+                response.setEncoding('utf8');
                 response.on('data', (chunk) => {
                     buffer += chunk;
                 });
